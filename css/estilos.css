@@ -51,7 +51,8 @@
   color: #f8f9fa;
   position: fixed;
   bottom: 0px;
-  margin: auto; }
+  margin: auto;
+  z-index: 999; }
   .foot .foot__texto {
     font-weight: 400;
     font-size: 1.1rem;
@@ -184,7 +185,7 @@
     background-color: transparent;
     color: #212529;
     justify-content: center;
-    position: relative; }
+    }
     .foot .foot__texto {
       text-transform: uppercase;
       background-color: #f8f9fa;
